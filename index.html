@@ -34,9 +34,25 @@
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
-    ;
     <!-- JavaScript -->
     <script type="module" src="./src/main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <button class="header__menu" aria-label="메뉴 열기">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </button>
+
+      <nav class="header__nav">
+        <ul class="header__menu-list">
+          <li><a href="#home" class="header__menu-item"></a></li>
+          <li><a href="#about" class="header__menu-item"></a></li>
+          <li><a href="#skills" class="header__menu-item"></a></li>
+          <li><a href="#work" class="header__menu-item"></a></li>
+          <li><a href="#contact" class="header__menu-item"></a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
 </html>
